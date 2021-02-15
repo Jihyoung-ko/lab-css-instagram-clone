@@ -7,4 +7,104 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  box-sizing: border-box;
 }
+
+.flex-item {
+  display: flex;
+}
+
+#container {
+  height: 100vh;
+  background: linear-gradient(0deg, white 60%, #1c5380 40%);
+}
+
+#main-contents {
+  padding-top: 80px;
+  padding-bottom: 30px;
+  justify-content: center;
+}
+
+#contents-container {
+  margin-left: 30px;
+}
+
+#header-container {
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+#logo{
+  width: 55%;
+}
+
+#log-in {
+  color: white;
+  background: -webkit-linear-gradient(-90deg, #d4e4ef -100%, #1c5380 100%);
+  border: #06365f 1px solid;
+  margin-right: 10px;
+  margin-top: 10px;
+  height: 40px;
+}
+
+#log-in img, #log-in p {
+  margin: auto;
+}
+
+#log-in img {
+  margin-right: 10px;
+}
+
+
+#text-container {
+  background: url(../images/frame.png) no-repeat;
+  margin-top: 10px;
+  padding: 30px;
+  overflow:hidden;
+  word-wrap: break-word;
+  max-width: 450px;
+}
+
+h1 {
+  color: #06365f;
+  font-size: 1.4em;
+  font-weight: 800;
+  margin-top: 0;
+}
+
+#text-container p {
+  margin: 0.5em 0;
+}
+
+.text-bold {
+  font-weight: 600;
+}
+
+#badge-container {
+  margin-left: 40px;
+}
+
+.badge-img {
+  padding-right: 20px;
+}
+
+#links ul{
+  list-style: none;
+  justify-content: center;
+}
+
+#links a {
+  color: #1c5380;
+  text-decoration: none;
+  margin-right: 10px;
+  font-weight: 400;
+}
+
+#links p {
+  margin: 0;
+}
+
+#links {
+  padding-bottom: 30px;
+}
+
